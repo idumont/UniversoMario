@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mário Bros</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="cliqueiNaMascara()"></div>
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo mario">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario bros" class="logo-mario">
+            <div class="texto">
+                <p>Tem um universo enorme lá fora, com um monte de galáxias, e estão todos contando com a gente.</p>
+                <p>Num mundo insano, os sãos é que são chamados de loucos. O destino está chamando.</p>
+                <p>Não há uma estrada real para a felicidade, mas sim caminhos diferentes. Há quem seja feliz sem coisa
+                    nenhuma, enquanto outros são infelizes possuindo tudo.</p>
+            </div>
+
+            <button class="botao-universo-mario" onclick="cliqueiNoBotao()">Chame Universo Mário</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="logo mario e luigi" class="mario-luigi">
+        </div>
+    </div>
+
+
+    <DIV class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+
+        <DIV class="mascara"></DIV>
+    </DIV>
+
+    <a href="https://wa.me/5581988071152?text=Seu+universo" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" 
+    action="https://formcarry.com/s/V4FJvpyI90I"
+    method="POST"
+    enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="nome">
+        <input placeholder="Seu Telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite sua mensagem aqui" name="duvida"></textarea>
+        <button type="submit">Faça seu Pedido</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
